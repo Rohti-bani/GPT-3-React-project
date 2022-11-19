@@ -1,0 +1,20 @@
+.gpt3__whatGpt3-feature-title div{
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), hsl(0, 0%, 100%);
+}
+.gpt3__whatGpt3-feature-title h1{
+    color: #FFFFFF;
+}
+.gpt3__whatGpt3-feature-text{
+    color: #81AFDD;
+}
+.gpt3__whatGpt3-feature-title{
+    display: flex;
+    flex-direction: column;
+}
+.gpt3__whatGpt3-feature-title div {
+    height: 2px;
+    margin-left: 43px;
+    margin-top: 50px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    width: 35px;
+}

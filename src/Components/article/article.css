@@ -1,0 +1,13 @@
+.gpt3__article{
+    display: flex;
+    flex-direction: column;
+}
+.gpt3__article_container{
+    background: #042C54;
+    margin-top: -1%;
+}
+@media screen and (max-width:1050px){
+    .gpt3__article{
+        margin-top: 50px;
+    }
+}

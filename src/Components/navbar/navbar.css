@@ -1,0 +1,155 @@
+.navbar {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 135px 0px 135.66px;
+  text-decoration: none;
+  
+  
+}
+
+.navbar__links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar__links-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  
+  
+}
+.navbar__links-logo{
+  cursor: pointer;
+}
+.navbar__links-logo img {
+  max-width: 62.56px;
+  max-height: 16.02px;
+  margin-right: 68.78px;
+  margin-top: 6px;
+}
+.navbar-sign {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.navbar-sign button {
+  min-width: 150px;
+  min-height: 55px;
+  background: #ff4820;
+  border-radius: 5px;
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.navbar-sign button:hover{
+  transform: scale(1.2);
+}
+.navbar__links-container p p ,.navbar-sign p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-right: 46px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar__links-container p p{
+  transition: transform 0.5s;
+}
+.navbar__links-container p p:hover{
+  transform: scale(1.2);
+}
+ 
+.gpt3__navbar-menu{
+  margin-left: 2rem;
+  display: none;
+}
+.gpt3__navbar-menu_container-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  min-width: 210px;
+  right: 0px;
+  background: var(--color-footer);
+  padding: 2rem;
+  top: 45px;
+}
+.gpt3__navbar-menu_container-links p{
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-right: 46px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-style: none;
+  
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar__links-container{
+   display: none;
+  }
+  .gpt3__navbar-menu{
+    display: flex;
+  }
+  .gpt3__navbar-menu_container-links-sign{
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .navbar__links-container{
+    padding: 2rem;  
+  }
+  .gpt3__navbar-menu_container-links p{
+    font-size: 10px;
+  }
+  .gpt3__navbar-menu_container-links {
+    height: 270px;
+    width: 220px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-sign{
+    display: none;
+  }
+  .navbar{
+    margin-left: 50px;
+  }
+  .gpt3__navbar-menu_container-links-sign{
+    display: flex;
+    flex-direction: column;
+  }
+  .gpt3__navbar-menu_container-links-sign p,button{
+    margin-top: 4px;
+  }
+  .gpt3__navbar-menu_container-links-sign button{
+    background: #ff4820;
+    color: white;
+    width: 70px;
+    padding: 2px;
+  }
+
+}

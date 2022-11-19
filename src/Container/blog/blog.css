@@ -1,0 +1,218 @@
+.gpt3__blog{
+   
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+    overflow: hidden;
+}
+
+
+.gpt3__blog_article-container{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 5%;
+    
+}
+.gpt3__blog-heading h1{
+    width: 38%;
+min-height: 150px;
+
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 47px;
+line-height: 65px;
+letter-spacing: -0.04em;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.gpt3__blog_articleLeft .gpt3__article-image img{
+    width: 100%;
+min-height: 287.73px;
+margin-bottom: 0;
+}
+.gpt3__blog_articleRight .gpt3__article-image img{
+    width: 100%;
+    height: 130.47px;
+}
+.gpt3__blog_articleRight{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.gpt3__blog_articleLeft{
+    width: 40%;
+min-height: 100%;
+margin-right: 4%;
+}
+
+
+.gpt3__blog_articleLeft .gpt3__article_container-text p{
+    
+margin-bottom: 0;
+margin-left: 5%;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 35px;
+/* identical to box height, or 300% */
+
+
+color: #FFFFFF;
+}
+.gpt3__blog_articleLeft .gpt3__article_container-text h1{
+    width: 60%;
+min-height: 90.86px;
+margin-left: 5%;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 30px;
+/* or 121% */
+
+
+color: #FFFFFF;
+}
+.gpt3__blog_articleLeft .gpt3__article_container-text-p2 p{
+    
+margin-top: 53%;
+margin-left: 5%;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 35px;
+/* identical to box height, or 300% */
+
+
+color: #FFFFFF;
+}
+.gpt3__blog_articleRight .gpt3__article_container{
+    width: 100%;
+    min-height: 193.37px;
+}
+.gpt3__blog_articleRight .gpt3__article_container-text p{
+    
+    
+    margin-left: 5%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 35px;
+    /* identical to box height, or 300% */
+    
+    
+    color: #FFFFFF;
+}
+.gpt3__blog_articleRight .gpt3__article_container-text-p2 p{
+    
+margin-left: 5%;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 9px;
+line-height: 35px;
+/* identical to box height, or 300% */
+
+
+color: #FFFFFF;
+}
+.gpt3__blog_articleRight .gpt3__article_container-text h1{
+    width: 75%;
+min-height: 90.86px;
+margin-left: 5%;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 30px;
+/* or 157% */
+
+
+color: #FFFFFF;
+}
+
+.gpt3__blog_articleRight_container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.gpt3__blog_articleRight_container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1050px){
+    .gpt3__blog_article-container{
+       flex-direction: column-reverse;
+        
+    }
+    .gpt3__blog_articleLeft{
+        
+        margin: auto;
+        height: 50%;
+        margin-left: 0px;
+        width: 47%;
+    }
+    .gpt3__blog_articleLeft .gpt3__article_container-text-p2 p{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .gpt3__blog_articleLeft .gpt3__article-image  {
+        height: 170.47px;
+    }
+    .gpt3__blog_article-container .gpt3__article{
+        margin-top: 50px;
+    }
+    .gpt3__blog_articleLeft .gpt3__article_container-text h1{
+        font-size: 17px;
+    }
+    .gpt3__blog-heading h1{
+        font-size: 45px;
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+}
+@media screen and (max-width:780px){
+    .gpt3__blog_articleRight{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+    }
+    .gpt3__blog-heading h1{
+        font-size: 200%;
+        margin-top: 15%;
+        
+    }
+    .gpt3__blog_articleLeft{
+        height: 410px;
+        width: 70%;
+        margin: auto;
+    }
+    .gpt3__blog_articleLeft .gpt3__article_container-text-p2 p{
+        margin-top: 2px;
+    }
+    .gpt3__blog_articleLeft .gpt3__article_container-text h1{
+        width: 80%;
+    }
+    
+}
